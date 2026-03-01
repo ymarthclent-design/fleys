@@ -837,14 +837,14 @@ button {
 
 
 .rating {
-  font-size: 1.2rem;          /* size of stars */
-  color: #ccc;                /* default star color (light gray) */
-  letter-spacing: 3px;        /* spacing between stars */
-  user-select: none;          /* prevent text selection */
+  font-size: 1.2rem;          
+  color: #ccc;                
+  letter-spacing: 3px;        
+  user-select: none;          
 }
 
 .rating::before {
-  content: '★★★★★';           /* 5 empty stars behind */
+  content: '★★★★★';           
   color: #ccc;
   position: absolute;
   overflow: hidden;
@@ -854,5 +854,5 @@ button {
 .rating {
   position: relative;
   display: inline-block;
-  color: gold;                /* filled stars color */
+  color: gold;                
 }
