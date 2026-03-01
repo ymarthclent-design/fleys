@@ -1,0 +1,165 @@
+<html lang="en">
+  <head>
+    <title>Business</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+              <img src="header.png" class="logo-image">
+          </div>
+         <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a>Menu</a>
+              <ul class="dropdown-menu">
+                <li><a href="clayCrafts.html">Clay Crafts</a></li>
+                <li><a href="FeltCrafts.html">Felt Crafts</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <li><a href="clayCrafts.html">Clay Crafts</a></li>
+            </li>
+            <li class="nav-item">
+              <li><a href="FeltCrafts.html">Felt Crafts</a></li>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+            
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link">🛒</a>
+            </li>
+            <li class="nav-item">
+              <li><a href="login.html">Login</a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  
+
+<section class="menu-container">
+
+    
+    <div class="menu-item">
+    <img src="clay1.jpeg" alt="Apowl Clippy">
+    <h3>Apowl Clippy</h3>
+    <p class="price">₱20</p>
+    <div class="rating">★★★★☆</div>
+    <label for="qtyC1">Quantity:</label>
+    <input type="number" id="qtyC1" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Apowl Clippy', 20, document.getElementById('qtyC1').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay2.jpeg" alt="Mifft Clipsy">
+    <h3>Mifft Clipsy</h3>
+    <p class="price">₱30</p>
+    <div class="rating">★★★☆☆</div>
+    <label for="qtyC2">Quantity:</label>
+    <input type="number" id="qtyC2" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Mifft Clipsy', 30, document.getElementById('qtyC2').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay3.jpeg" alt="Starry Cookie Clipsy">
+    <h3>Starry Cookie Clipsy</h3>
+    <p class="price">₱30</p>
+    <div class="rating">★★★★★</div>
+    <label for="qtyC3">Quantity:</label>
+    <input type="number" id="qtyC3" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Starry Cookie Clipsy', 30, document.getElementById('qtyC3').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay4.jpeg" alt="Tulip Bokey Keychain">
+    <h3>Tulip Bokey Keychain</h3>
+    <p class="price">₱20</p>
+    <div class="rating">★★★☆☆</div>
+    <label for="qtyC4">Quantity:</label>
+    <input type="number" id="qtyC4" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Tulip Bokey Keychain', 20, document.getElementById('qtyC4').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay5.jpeg" alt="Simple Flower Keychain">
+    <h3>Simple Flower Keychain</h3>
+    <p class="price">₱20</p>
+    <div class="rating">★★★★☆</div>
+    <label for="qtyC5">Quantity:</label>
+    <input type="number" id="qtyC5" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Simple Flower Keychain', 20, document.getElementById('qtyC5').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay6.jpeg" alt="Daisy Flower">
+    <h3>Daisy Flower</h3>
+    <p class="price">₱30</p>
+    <div class="rating">★★★☆☆</div>
+    <label for="qtyC6">Quantity:</label>
+    <input type="number" id="qtyC6" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Daisy Flower', 30, document.getElementById('qtyC6').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay7.jpeg" alt="Koket Keychain">
+    <h3>Koket Keychain</h3>
+    <p class="price">₱25</p>
+    <div class="rating">★★★★☆</div>
+    <label for="qtyC7">Quantity:</label>
+    <input type="number" id="qtyC7" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Koket Keychain', 25, document.getElementById('qtyC7').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay8.jpeg" alt="Cat Paw Keychain">
+    <h3>Cat Paw Keychain</h3>
+    <p class="price">₱20</p>
+    <div class="rating">★★★☆☆</div>
+    <label for="qtyC8">Quantity:</label>
+    <input type="number" id="qtyC8" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Cat Paw Keychain', 20, document.getElementById('qtyC8').value)">Add</button>
+</div>
+
+
+
+<div class="menu-item">
+    <img src="clay10.jpeg" alt="MoodMunch">
+    <h3>MoodMunch</h3>
+    <p class="price">₱20</p>
+    <div class="rating">★★★★☆</div>
+    <label for="qtyC10">Quantity:</label>
+    <input type="number" id="qtyC10" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('MoodMunch', 20, document.getElementById('qtyC10').value)">Add</button>
+</div>
+
+<div class="menu-item">
+    <img src="clay11.jpeg" alt="Sadie Sunny">
+    <h3>Sadie Sunny</h3>
+    <p class="price">₱15</p>
+    <div class="rating">★★★☆☆</div>
+    <label for="qtyC11">Quantity:</label>
+    <input type="number" id="qtyC11" value="1" min="1" style="width: 60px;">
+    <button onclick="addToCart('Sadie Sunny', 15, document.getElementById('qtyC11').value)">Add</button>
+</div>
+
+</section>
+
+  
+
+    <script src="MENU_PAGE.js"></script>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Fleyi Business. All rights reserved.</p>
+      </div>
+    </footer>
+     <script src="script.js"></script>
+  </body>
+</html>

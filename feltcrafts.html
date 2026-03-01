@@ -1,0 +1,175 @@
+<html lang="en">
+  <head>
+    <title>Business</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+              <img src="header.png" class="logo-image">
+          </div>
+         <ul class="nav-menu">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a>Menu</a>
+              <ul class="dropdown-menu">
+                <li><a href="clayCrafts.html">Clay Crafts</a></li>
+                <li><a href="FeltCrafts.html">Felt Crafts</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item">
+              <li><a href="clayCrafts.html">Clay Crafts</a></li>
+            </li>
+            <li class="nav-item">
+              <li><a href="FeltCrafts.html">Felt Crafts</a></li>
+            </li>
+
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link">🛒</a>
+            </li>
+            <li class="nav-item">
+              <li><a href="login.html">Login</a></li>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+  
+
+<section class="menu-container">
+
+    
+   <div class="menu-item">
+      <img src="felt1.jpeg" alt="Bluey Keychain">
+      <h3>Bluey Keychain</h3>
+      <p class="price">₱20</p>
+      <div class="rating">★★★★☆</div>
+      <label for="qty1">Quantity:</label>
+      <input type="number" id="qty1" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Bluey Keychain', 20, document.getElementById('qty1').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt2.jpeg" alt="Velvet Moth">
+      <h3>Velvet Moth</h3>
+      <p class="price">₱30</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty2">Quantity:</label>
+      <input type="number" id="qty2" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Velvet Moth', 30, document.getElementById('qty2').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt3.jpeg" alt="Starry Star">
+      <h3>Starry Star</h3>
+      <p class="price">₱30</p>
+      <div class="rating">★★★★★</div>
+      <label for="qty3">Quantity:</label>
+      <input type="number" id="qty3" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Starry Star', 30, document.getElementById('qty3').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt4.jpeg" alt="Red Stellar Hair Clip">
+      <h3>Red Stellar Hair Clip</h3>
+      <p class="price">₱20</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty4">Quantity:</label>
+      <input type="number" id="qty4" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Red Stellar Hair Clip', 20, document.getElementById('qty4').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt5.jpeg" alt="Shooting Pastels Hair Clip">
+      <h3>Shooting Pastels Hair Clip</h3>
+      <p class="price">₱20</p>
+      <div class="rating">★★★★☆</div>
+      <label for="qty5">Quantity:</label>
+      <input type="number" id="qty5" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Shooting Pastels Hair Clip', 20, document.getElementById('qty5').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt6.jpeg" alt="Pink in Green Hair Clip">
+      <h3>Pink in Green Hair Clip</h3>
+      <p class="price">₱30</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty6">Quantity:</label>
+      <input type="number" id="qty6" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Pink in Green Hair Clip', 30, document.getElementById('qty6').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt7.jpeg" alt="Winged Pixie Keychain">
+      <h3>Winged Pixie Keychain</h3>
+      <p class="price">₱25</p>
+      <div class="rating">★★★★☆</div>
+      <label for="qty7">Quantity:</label>
+      <input type="number" id="qty7" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Winged Pixie Keychain', 25, document.getElementById('qty7').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt8.jpeg" alt="Fluffy Mink Keychain">
+      <h3>Fluffy Mink Keychain</h3>
+      <p class="price">₱20</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty8">Quantity:</label>
+      <input type="number" id="qty8" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Fluffy Mink Keychain', 20, document.getElementById('qty8').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt9.jpeg" alt="Bluey Keychain 2">
+      <h3>Bluey Keychain 2</h3>
+      <p class="price">₱15</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty9">Quantity:</label>
+      <input type="number" id="qty9" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Bluey Keychain 2', 15, document.getElementById('qty9').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt10.jpeg" alt="Blooming Kitty Keychain">
+      <h3>Blooming Kitty Keychain</h3>
+      <p class="price">₱20</p>
+      <div class="rating">★★★★☆</div>
+      <label for="qty10">Quantity:</label>
+      <input type="number" id="qty10" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Blooming Kitty Keychain', 20, document.getElementById('qty10').value)">Add</button>
+  </div>
+
+  <div class="menu-item">
+      <img src="felt11.jpeg" alt="Brownie Bear Keychain">
+      <h3>Brownie Bear Keychain</h3>
+      <p class="price">₱15</p>
+      <div class="rating">★★★☆☆</div>
+      <label for="qty11">Quantity:</label>
+      <input type="number" id="qty11" value="1" min="1" style="width: 60px;">
+      <button onclick="addToCart('Brownie Bear Keychain', 15, document.getElementById('qty11').value)">Add</button>
+  </div>
+
+
+</section>
+
+  
+
+    <script src="MENU_PAGE.js"></script>
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2026 Fleyi Business. All rights reserved.</p>
+      </div>
+    </footer>
+     <script src="script.js"></script>
+  </body>
+</html>
